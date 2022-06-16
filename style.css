@@ -3,22 +3,22 @@ body {
   flex-direction: column;
   margin: 0;
   padding: 0;
+  width: 100%;
 }
 
-.container {
-  display: flex;
-}
+/* Header and Navigation */
 
 .header {
   display: flex;
   justify-content: space-between;
-  width: 100%;
+  align-items: center;
   padding: 16px;
   background-color: rgb(171, 255, 171);
+  height: 5vh;
 }
 
 .logo {
-    margin-left: 24px;
+  margin-left: 24px;
 }
 .nav-links {
   display: flex;
@@ -26,6 +26,33 @@ body {
   margin-right: 24px;
 }
 
+/* Main Body */
+
 .main {
+  display: flex;
   background-color: red;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+}
+
+/* Left Block */
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-width: 35%;
+  max-width: 500px;
+}
+
+/* Right Block */
+.right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-image img {
+  max-height: 500px;
+  vertical-align: bottom;
 }
