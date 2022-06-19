@@ -26,9 +26,9 @@ body {
   margin-right: 24px;
 }
 
-/* Main Body */
+/* Hero block */
 
-.main {
+.hero {
   display: flex;
   background-color: green;
   justify-content: space-between;
