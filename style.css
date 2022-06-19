@@ -30,7 +30,7 @@ body {
 
 .main {
   display: flex;
-  background-color: red;
+  background-color: green;
   justify-content: space-between;
   padding: 0;
   margin: 0;
@@ -41,8 +41,21 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  min-width: 35%;
-  max-width: 500px;
+  width: 400px;
+  padding: 40px;
+  flex-grow: 1;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+.description {
+    font-size: 16px;
+    font-style: italic;
+    color: gainsboro;
 }
 
 /* Right Block */
