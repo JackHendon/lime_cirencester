@@ -89,8 +89,10 @@ body {
 .card-block {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     flex-wrap: wrap;
     padding: 24px 48px;
+    margin: 0 10%;
     flex: 0 1 34%;
 }
 
