@@ -32,9 +32,18 @@ body {
   gap: 12px;
 }
 
+.nav-item a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.nav-item a:hover {
+    color: lime;
+}
+
 /* Hero block */
 
-.hero {
+.hero-block {
   display: flex;
   background-color: #45bf55;
   justify-content: space-between;
@@ -74,4 +83,17 @@ body {
 .hero-image img {
   max-height: 500px;
   vertical-align: bottom;
+}
+
+/* Card Block */
+.card-block {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 24px 48px;
+    flex: 0 1 34%;
+}
+
+.card img {
+    max-width: 300px;
 }
